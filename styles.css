@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rajdhani:wght@500&display=swap');
+* {
+    margin: 0;
+    font-family: 'Open Sans';
+}
+header {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    padding: 10px;
+    letter-spacing: 2px;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 10px;
+    background-color: rgb(58,56,55);
+  }
+  .Turntable-logo {
+    height: 100px;
+  }
+  .Main-title {
+    margin-left: 40%;
+  }
+  body {
+    background-image:url("https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77702096157.jpg");
+  }
+  main {
+    display: flex;
+    justify-content: space-between;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  #left {
+    margin: 0 70px;
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .3);
+  }
+  h3 {
+    color: gray;
+  }
+  .vinyls {
+    width: 250px;
+    height: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
